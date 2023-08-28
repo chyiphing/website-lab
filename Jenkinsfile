@@ -31,5 +31,11 @@ pipeline {
                 echo 'Releasing'
             }
         }
+
+ 	stage('Final') {
+            steps {
+                echo 'Final Step'
+            }
+        }
     }
 }
